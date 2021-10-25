@@ -45,9 +45,9 @@ function App() {
           <h2>
             {displayNumber}
             {factors && factors.length === 2
-              ? `is a prime number!`
+              ? ` is a prime number!`
               : factors && !isNaN(displayNumber) ?
-                `is not a prime number.` : <div>Please enter a valid number</div>}
+                ` is not a prime number.` : <div>Please enter a valid number</div>}
           </h2>
         )}
 
